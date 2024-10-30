@@ -1,0 +1,290 @@
+/* All rights reserved by Solayman Haider https://solayman.net */
+
+
+/* Basic Style */
+.inbutton{
+  cursor: pointer !important;
+  display: inline-block !important;
+  min-height: 1em !important;
+  outline: 0 !important;
+  border: 0 !important;
+  vertical-align: baseline !important;
+  background: transparent !important;
+  color: #DC4A38 !important;
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif !important;
+  font-size: .85em !important;
+  margin: .3em .25em .6em 0 !important;
+  padding: 1em 2em !important;
+  text-transform: none !important;
+  text-shadow: none !important;
+  font-weight: 700 !important;
+  line-height: 1em !important;
+  font-style: normal !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  border-radius: .3em !important;
+  box-shadow: 0 0 0 2px #DC4A38 inset !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+  -webkit-transition: opacity .1s ease,background-color .1s ease,color .1s ease,box-shadow .1s ease,background .1s ease !important;
+  transition: opacity .1s ease,background-color .1s ease,color .1s ease,box-shadow .1s ease,background .1s ease !important;
+  will-change: '' !important;
+  -webkit-tap-highlight-color: transparent !important;
+}
+.inbutton:hover{
+  background: #DC4A38 !important;
+  color: #ffffff !important;
+  box-shadow: 0 !important;
+}
+.inbutton:active{
+  background: #bf3322 !important;
+  color: #ffffff !important;
+  box-shadow: 0 0 0 2px #bf3322 inset !important;
+}
+
+/* Size */
+
+/* Tiny */
+.inbutton.tiny{
+  padding: .7em 1em !important;
+}
+
+/* Big */
+.inbutton.big{
+  padding: 1.2em 2.5em !important;
+  font-size: 1em !important;
+}
+
+/* Extra Big */
+.inbutton.xbig{
+  padding: 1em 2em !important;
+  font-size: 1.5em !important;
+}
+
+/* Color */
+
+/* White */
+.inbutton.white{
+  color: #ffffff !important;
+  box-shadow: 0 0 0 2px #ffffff inset !important;
+}
+.inbutton.white:hover{
+  background: #ffffff !important;
+  color: #000000 !important;
+}
+.inbutton.white:active{
+  box-shadow: 0 0 0 2px #D8D8D8 inset !important;
+  background: #D8D8D8 !important;
+  color: #000000 !important;
+}
+
+/* Red */
+.inbutton.red{
+  color: #FF1100 !important;
+  box-shadow: 0 0 0 2px #FF1100 inset !important;
+}
+.inbutton.red:hover{
+  background: #FF1100 !important;
+  color: #ffffff !important;
+}
+.inbutton.red:active{
+  box-shadow: 0 0 0 2px #DE2F23 inset !important;
+  background: #DE2F23 !important;
+  color: #ffffff !important;
+}
+
+/* Orange */
+.inbutton.orange{
+  color: #FF851B !important;
+  box-shadow: 0 0 0 2px #FF851B inset !important;
+}
+.inbutton.orange:hover{
+  background: #FF851B !important;
+  color: #ffffff !important;
+}
+.inbutton.orange:active{
+  box-shadow: 0 0 0 2px #e76b00 inset !important;
+  background: #e76b00 !important;
+  color: #ffffff !important;
+}
+
+/* Yellow */
+.inbutton.yellow{
+  color: #FFE21F !important;
+  box-shadow: 0 0 0 2px #FFE21F inset !important;
+}
+.inbutton.yellow:hover{
+  background: #FFE21F !important;
+  color: #5A5A5A !important;
+}
+.inbutton.yellow:active{
+  box-shadow: 0 0 0 2px #ebcd00 inset !important;
+  background: #ebcd00 !important;
+  color: #5A5A5A !important;
+}
+
+/* Olive */
+.inbutton.olive{
+  color: #D9E778 !important;
+  box-shadow: 0 0 0 2px #D9E778 inset !important;
+}
+.inbutton.olive:hover{
+  background: #D9E778 !important;
+  color: #5A5A5A !important;
+}
+.inbutton.olive:active{
+  box-shadow: 0 0 0 2px #cddf4d inset !important;
+  background: #cddf4d !important;
+  color: #5A5A5A !important;
+}
+
+/* Green */
+.inbutton.green{
+  color: #2ECC40 !important;
+  box-shadow: 0 0 0 2px #2ECC40 inset !important;
+}
+.inbutton.green:hover{
+  background: #2ECC40 !important;
+  color: #ffffff !important;
+}
+.inbutton.green:active{
+  box-shadow: 0 0 0 2px #25a233 inset !important;
+  background: #25a233 !important;
+  color: #ffffff !important;
+}
+
+/* Teal */
+.inbutton.teal{
+  color: #6DFFFF !important;
+  box-shadow: 0 0 0 2px #6DFFFF inset !important;
+}
+.inbutton.teal:hover{
+  background: #6DFFFF !important;
+  color: #5A5A5A !important;
+}
+.inbutton.teal:active{
+  box-shadow: 0 0 0 2px #3affff inset !important;
+  background: #3affff !important;
+  color: #5A5A5A !important;
+}
+
+/* Blue */
+.inbutton.blue{
+  color: #54C8FF !important;
+  box-shadow: 0 0 0 2px #54C8FF inset !important;
+}
+.inbutton.blue:hover{
+  background: #54C8FF !important;
+  color: #ffffff !important;
+}
+.inbutton.blue:active{
+  box-shadow: 0 0 0 2px #21b8ff inset !important;
+  background: #21b8ff !important;
+  color: #ffffff !important;
+}
+
+/* Violet */
+.inbutton.violet{
+  color: #A291FB !important;
+  box-shadow: 0 0 0 2px #A291FB inset !important;
+}
+.inbutton.violet:hover{
+  background: #A291FB !important;
+  color: #ffffff !important;
+}
+.inbutton.violet:active{
+  box-shadow: 0 0 0 2px #7860f9 inset !important;
+  background: #7860f9 !important;
+  color: #ffffff !important;
+}
+
+/* Purple */
+.inbutton.purple{
+  color: #DC73FF !important;
+  box-shadow: 0 0 0 2px #DC73FF inset !important;
+}
+.inbutton.purple:hover{
+  background: #DC73FF !important;
+  color: #ffffff !important;
+}
+.inbutton.purple:active{
+  box-shadow: 0 0 0 2px #cf40ff inset !important;
+  background: #cf40ff !important;
+  color: #ffffff !important;
+}
+
+/* Pink */
+.inbutton.pink{
+  color: #FF8EDF !important;
+  box-shadow: 0 0 0 2px #FF8EDF inset !important;
+}
+.inbutton.pink:hover{
+  background: #FF8EDF !important;
+  color: #ffffff !important;
+}
+.inbutton.pink:active{
+  box-shadow: 0 0 0 2px #ff5bd1 inset !important;
+  background: #ff5bd1 !important;
+  color: #ffffff !important;
+}
+
+/* Brown */
+.inbutton.brown{
+  color: #D67C1C !important;
+  box-shadow: 0 0 0 2px #D67C1C inset !important;
+}
+.inbutton.brown:hover{
+  background: #D67C1C !important;
+  color: #ffffff !important;
+}
+.inbutton.brown:active{
+  box-shadow: 0 0 0 2px #a96216 inset !important;
+  background: #a96216 !important;
+  color: #ffffff !important;
+}
+
+/* Gray */
+.inbutton.gray{
+  color: #D4D4D5 !important;
+  box-shadow: 0 0 0 2px #D4D4D5 inset !important;
+}
+.inbutton.gray:hover{
+  background: #D4D4D5 !important;
+  color: #5A5A5A !important;
+}
+.inbutton.gray:active{
+  box-shadow: 0 0 0 2px #c2c4c5 inset !important;
+  background: #c2c4c5 !important;
+  color: #5A5A5A !important;
+}
+
+/* Black */
+.inbutton.black{
+  color: #000000 !important;
+  box-shadow: 0 0 0 2px #000000 inset !important;
+}
+.inbutton.black:hover{
+  background: #000000 !important;
+  color: #ffffff !important;
+}
+.inbutton.black:active{
+  box-shadow: 0 0 0 2px #4C4C4C inset !important;
+  background: #4C4C4C !important;
+  color: #ffffff !important;
+}
+
+/* Text Style */
+.inbutton.uppercase-yes{
+  text-transform: uppercase !important;
+}
+.inbutton.uppercase-no{
+  text-transform: none !important;
+}
+.inbutton.italic-yes{
+  font-style: italic !important;
+}
+.inbutton.italic-no{
+  font-style: normal !important;
+}
